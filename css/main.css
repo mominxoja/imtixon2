@@ -1,0 +1,842 @@
+.container {
+  background-color: aliceblue;
+  margin: 0 auto;
+  width: 1400px;
+}
+
+@media screen and (max-width: 760px) {
+  .container {
+    margin: 0 auto;
+    width: 700px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .container {
+    margin: 0 auto;
+    width: 375px;
+  }
+}
+.header {
+  margin: 0 auto;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Space Mono";
+  display: flex;
+}
+.header__btn {
+  Width: 150px;
+  Height: 45px;
+  color: white;
+  border: none;
+  background-color: #FCB72B;
+}
+.header__btn:hover:active {
+  background-color: #FCB72B;
+}
+.header__btn:hover {
+  color: black;
+  border: 3px solid black;
+  background-color: transparent;
+}
+.header a {
+  text-decoration: none;
+}
+.header li {
+  list-style: none;
+}
+.header__nav {
+  align-items: center;
+  display: flex;
+}
+.header__nav__logo:active {
+  border: 2px solid yellow;
+  background-color: rgb(255, 255, 0);
+}
+.header__nav__logo:hover {
+  border: 2px solid yellow;
+}
+.header__nav__ul {
+  display: flex;
+}
+.header__nav__ul__li:active {
+  background-color: yellow;
+}
+.header__nav__ul__li:hover {
+  border: 2px solid yellow;
+}
+.header__nav__ul__li {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  margin-inline: 15px;
+}
+.header__nav__ul__li a {
+  color: #939caa;
+}
+
+@media screen and (max-width: 760px) {
+  .header {
+    margin: 0 auto;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Space Mono";
+    display: flex;
+  }
+  .header__btn {
+    Width: 150px;
+    Height: 45px;
+    color: white;
+    border: none;
+    background-color: #FCB72B;
+  }
+  .header__btn:hover:active {
+    background-color: #FCB72B;
+  }
+  .header__btn:hover {
+    color: black;
+    border: 3px solid black;
+    background-color: transparent;
+  }
+  .header a {
+    text-decoration: none;
+  }
+  .header li {
+    list-style: none;
+  }
+  .header__nav {
+    align-items: center;
+    display: flex;
+  }
+  .header__nav__logo:active {
+    border: 2px solid yellow;
+    background-color: rgb(255, 255, 0);
+  }
+  .header__nav__logo:hover {
+    border: 2px solid yellow;
+  }
+  .header__nav__ul {
+    display: flex;
+  }
+  .header__nav__ul__li:active {
+    background-color: yellow;
+  }
+  .header__nav__ul__li:hover {
+    border: 2px solid yellow;
+  }
+  .header__nav__ul__li {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 600;
+    margin-inline: 15px;
+  }
+  .header__nav__ul__li a {
+    color: #939caa;
+  }
+}
+@media screen and (max-width: 400px) {
+  .header {
+    margin: 0 auto;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Space Mono";
+    display: flex;
+  }
+  .header__btn {
+    Width: 150px;
+    Height: 45px;
+    color: white;
+    border: none;
+    background-color: #FCB72B;
+  }
+  .header__btn:hover:active {
+    background-color: #FCB72B;
+  }
+  .header__btn:hover {
+    color: black;
+    border: 3px solid black;
+    background-color: transparent;
+  }
+  .header a {
+    text-decoration: none;
+  }
+  .header li {
+    list-style: none;
+  }
+  .header__nav {
+    align-items: center;
+    display: flex;
+  }
+  .header__nav__logo:active {
+    border: 2px solid yellow;
+    background-color: rgb(255, 255, 0);
+  }
+  .header__nav__logo:hover {
+    border: 2px solid yellow;
+  }
+  .header__nav__ul {
+    display: flex;
+  }
+  .header__nav__ul__li:active {
+    background-color: yellow;
+  }
+  .header__nav__ul__li:hover {
+    border: 2px solid yellow;
+  }
+  .header__nav__ul__li {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 600;
+    margin-inline: 15px;
+  }
+  .header__nav__ul__li a {
+    color: #939caa;
+  }
+}
+.main {
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 400px) {
+  .main {
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+.main__hero {
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+}
+.main__hero img {
+  position: relative;
+}
+.main__hero__chiz {
+  left: -650px;
+  width: 500px;
+  position: absolute;
+}
+.main__hero__text {
+  position: relative;
+  margin-top: 70px;
+  margin-left: 230px;
+  color: white;
+  position: absolute;
+  top: 100px;
+  width: 500px;
+}
+.main__hero__text h1 {
+  font-size: 50px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.main__hero__text p {
+  margin-left: 100px;
+  width: 360px;
+}
+.main__hero__text__btn {
+  margin-left: 100px;
+  color: white;
+  Width: 150px;
+  Height: 45px;
+  border: none;
+  background-color: #FCB72B;
+}
+.main__hero__text__btn:hover:active {
+  background-color: #FCB72B;
+}
+.main__hero__text__btn:hover {
+  border: 3px solid black;
+  background-color: transparent;
+}
+
+@media screen and (max-width: 760px) {
+  .main__hero {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+  }
+  .main__hero img {
+    position: relative;
+  }
+  .main__hero__chiz {
+    height: 100px;
+    top: 200px;
+    left: -1000px;
+    position: relative;
+  }
+  .main__hero__text {
+    margin: 0px auto;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 100px;
+    width: 500px;
+  }
+  .main__hero__text h1 {
+    margin: 0 0 0 200px;
+    width: 300px;
+    font-size: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  .main__hero__text p {
+    margin: 0 0 0 130px;
+    text-align: center;
+    width: 450px;
+  }
+  .main__hero__text__btn {
+    margin: 20px 0 0 230px;
+    color: white;
+    Width: 150px;
+    Height: 45px;
+    border: none;
+    background-color: #FCB72B;
+  }
+  .main__hero__text__btn:hover:active {
+    background-color: #FCB72B;
+  }
+  .main__hero__text__btn:hover {
+    border: 3px solid black;
+    background-color: transparent;
+  }
+}
+@media screen and (max-width: 400px) {
+  .main__hero {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+  }
+  .main__hero img {
+    position: relative;
+  }
+  .main__hero__chiz {
+    height: 100px;
+    top: 200px;
+    left: -1000px;
+    position: relative;
+  }
+  .main__hero__text {
+    margin-top: -30px;
+    margin-left: -100px;
+    color: white;
+    position: absolute;
+    width: 500px;
+  }
+  .main__hero__text h1 {
+    margin-left: 220px;
+    width: 130px;
+    line-height: 20px;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  .main__hero__text p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 600;
+    font-size: 10px;
+    text-align: center;
+    width: 300px;
+  }
+  .main__hero__text__btn {
+    margin-left: 80px;
+    color: white;
+    height: 35px;
+    border: none;
+    background-color: #FCB72B;
+  }
+  .main__hero__text__btn:hover:active {
+    background-color: #FCB72B;
+  }
+  .main__hero__text__btn:hover {
+    border: 3px solid black;
+    background-color: transparent;
+  }
+}
+.menu__textpic {
+  width: 100%;
+  margin: 0 auto;
+}
+.menu__textpic__1 {
+  justify-content: space-around;
+  display: flex;
+}
+.menu__textpic__1__pic {
+  justify-content: space-around;
+}
+.menu__textpic__1__pic__bola {
+  margin-left: 500px;
+}
+.menu__textpic__1__pic__chopp {
+  top: -200px;
+  position: relative;
+  left: 600px;
+}
+.menu__textpic__1__pic__aa {
+  position: relative;
+  left: -500px;
+  top: -400px;
+}
+.menu__textpic__1__pic__chop {
+  top: -150px;
+  left: 350px;
+  position: relative;
+}
+.menu__textpic__1__pic__img {
+  margin-right: -1300px;
+}
+.menu__textpic__1__text {
+  font-size: 25px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  width: 670px;
+}
+.menu__textpic__1__text button {
+  Width: 150px;
+  Height: 45px;
+  color: white;
+  border: none;
+  background-color: #FCB72B;
+}
+.menu__textpic__1__text button:hover:active {
+  background-color: #FCB72B;
+}
+.menu__textpic__1__text button:hover {
+  color: black;
+  border: 3px solid black;
+  background-color: transparent;
+}
+.menu__textpic__1__text p {
+  color: #939CAA;
+}
+.menu__textpic__1__text h2 {
+  width: 300px;
+  color: #495567;
+}
+
+@media screen and (max-width: 760px) {
+  .menu__textpic {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .menu__textpic__1 {
+    margin-bottom: 50px;
+    display: block;
+    text-align: center;
+  }
+  .menu__textpic__1__pic__bola {
+    margin: 50px auto;
+  }
+  .menu__textpic__1__pic__chopp {
+    top: -200px;
+    position: relative;
+    left: 600px;
+  }
+  .menu__textpic__1__pic__aa {
+    position: relative;
+    left: -400px;
+    top: -400px;
+  }
+  .menu__textpic__1__pic__chop {
+    top: -150px;
+    left: 0px;
+    position: relative;
+  }
+  .menu__textpic__1__pic__img {
+    margin-right: -1300px;
+  }
+  .menu__textpic__1__text {
+    font-size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    width: 670px;
+  }
+  .menu__textpic__1__text button {
+    Width: 150px;
+    Height: 45px;
+    color: white;
+    border: none;
+    background-color: #FCB72B;
+  }
+  .menu__textpic__1__text button:hover:active {
+    background-color: #FCB72B;
+  }
+  .menu__textpic__1__text button:hover {
+    color: black;
+    border: 3px solid black;
+    background-color: transparent;
+  }
+  .menu__textpic__1__text p {
+    color: #939CAA;
+  }
+  .menu__textpic__1__text h2 {
+    margin: 0 auto;
+    width: 300px;
+    color: #495567;
+  }
+}
+@media screen and (max-width: 400px) {
+  .menu__textpic {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .menu__textpic__1 {
+    margin-bottom: 50px;
+    display: block;
+    text-align: center;
+  }
+  .menu__textpic__1__pic__bo {
+    margin-top: -100px;
+    width: 300px;
+  }
+  .menu__textpic__1__pic__bola {
+    width: 300px;
+    margin: 50px auto;
+  }
+  .menu__textpic__1__pic__chopp {
+    top: -300px;
+    position: relative;
+    left: 150px;
+  }
+  .menu__textpic__1__pic__aa {
+    position: relative;
+    left: -500px;
+    top: -300px;
+  }
+  .menu__textpic__1__pic__chop {
+    top: -200px;
+    left: 0px;
+    position: relative;
+  }
+  .menu__textpic__1__pic__img {
+    width: 700px;
+    margin-right: 1200px;
+  }
+  .menu__textpic__1__text {
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    width: 670px;
+  }
+  .menu__textpic__1__text button {
+    margin-right: 300px;
+    color: white;
+    border: none;
+    background-color: #FCB72B;
+  }
+  .menu__textpic__1__text button:hover:active {
+    background-color: #FCB72B;
+  }
+  .menu__textpic__1__text button:hover {
+    color: black;
+    border: 3px solid black;
+    background-color: transparent;
+  }
+  .menu__textpic__1__text p {
+    width: 350px;
+    color: #939CAA;
+  }
+  .menu__textpic__1__text h2 {
+    margin-right: 350px;
+    width: 250px;
+    color: #495567;
+  }
+}
+.main__server {
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.main__server__1 {
+  width: 310px;
+}
+.main__server__1 img:hover:active {
+  opacity: 0.2;
+}
+.main__server__1 img:hover {
+  border: 2px solid black;
+  border-radius: 50%;
+}
+.main__server__1 h3 {
+  color: #495567;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.main__server__1 p {
+  line-height: 30px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #939CAA;
+}
+
+@media screen and (max-width: 760px) {
+  .main__server {
+    margin: 0 auto;
+    width: 100%;
+    display: block;
+  }
+  .main__server__1 {
+    text-align: center;
+    width: 700px;
+    display: block;
+  }
+  .main__server__1 img:hover:active {
+    opacity: 0.2;
+  }
+  .main__server__1 img:hover {
+    border: 2px solid black;
+    border-radius: 50%;
+  }
+  .main__server__1 h3 {
+    flex-direction: row;
+    color: #495567;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  .main__server__1 p {
+    line-height: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color: #939CAA;
+  }
+}
+@media screen and (max-width: 400px) {
+  .main__server {
+    margin: 0 auto;
+    width: 100%;
+    display: block;
+  }
+  .main__server__1 {
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;
+    display: block;
+  }
+  .main__server__1 img:hover:active {
+    opacity: 0.2;
+  }
+  .main__server__1 img:hover {
+    border: 2px solid black;
+    border-radius: 50%;
+  }
+  .main__server__1 h3 {
+    flex-direction: row;
+    color: #495567;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  .main__server__1 p {
+    line-height: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color: #939CAA;
+  }
+}
+.main__end {
+  margin: 0 auto;
+  width: 100%;
+  align-items: center;
+  background-color: #495567;
+  display: flex;
+  justify-content: space-around;
+}
+.main__end__text h2 {
+  width: 300px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: aliceblue;
+}
+.main__end__pic img {
+  margin-inline: 5px;
+}
+
+@media screen and (max-width: 760px) {
+  .main__end {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    background-color: #495567;
+    display: block;
+  }
+  .main__end__text h2 {
+    margin: 0 auto 50px;
+    width: 300px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: aliceblue;
+  }
+}
+@media screen and (max-width: 400px) {
+  .main__end {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    background-color: #495567;
+    display: block;
+  }
+  .main__end__text h2 {
+    margin: 0 auto 50px;
+    width: 300px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: aliceblue;
+  }
+  .main__end__pic img:hover {
+    border: 2px solid;
+  }
+  .main__end__pic img:hover:active {
+    opacity: 0.2;
+  }
+  .main__end__pic img {
+    width: 150px;
+  }
+}
+.footer {
+  width: 100%;
+  margin: 0 auto;
+  align-items: center;
+  background-color: #333A44;
+  display: flex;
+  justify-content: space-around;
+}
+.footer a {
+  text-decoration: none;
+}
+.footer li {
+  margin-inline: 15px;
+  list-style: none;
+}
+.footer__nav {
+  display: flex;
+}
+.footer__nav__logo:hover:active {
+  background-color: yellow;
+}
+.footer__nav__logo:hover {
+  border: 3px solid yellow;
+}
+.footer__nav__logo {
+  margin: auto 0;
+}
+.footer__nav__ul {
+  display: flex;
+}
+.footer__nav__ul__li:hover:active {
+  background-color: yellow;
+}
+.footer__nav__ul__li:hover {
+  border: 3px solid yellow;
+}
+.footer__nav__ul__li a {
+  color: #939CAA;
+}
+.footer__img {
+  display: flex;
+}
+.footer .footer__img {
+  width: 50px;
+  height: 30px;
+}
+.footer .footer__img img {
+  margin-inline: 15px;
+}
+
+@media screen and (max-width: 760px) {
+  .footer {
+    margin: 0 auto;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #333A44;
+    display: flex;
+  }
+  .footer a {
+    text-decoration: none;
+  }
+  .footer li {
+    margin-inline: 15px;
+    list-style: none;
+  }
+  .footer__nav {
+    display: flex;
+  }
+  .footer__nav__logo:hover:active {
+    background-color: yellow;
+  }
+  .footer__nav__logo:hover {
+    border: 3px solid yellow;
+  }
+  .footer__nav__logo {
+    margin: auto 0;
+  }
+  .footer__nav__ul {
+    display: flex;
+  }
+  .footer__nav__ul__li:hover:active {
+    background-color: yellow;
+  }
+  .footer__nav__ul__li:hover {
+    border: 3px solid yellow;
+  }
+  .footer__nav__ul__li a {
+    color: #939CAA;
+  }
+  .footer__img {
+    display: flex;
+  }
+  .footer .footer__img {
+    position: relative;
+    left: -100px;
+    width: 50px;
+    height: 30px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .footer {
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    display: block;
+    align-items: center;
+    background-color: #333A44;
+    display: block;
+  }
+  .footer a {
+    text-decoration: none;
+  }
+  .footer li {
+    list-style: none;
+  }
+  .footer__nav {
+    border: 2px solid wheat;
+    display: block;
+  }
+  .footer__nav__logo:hover:active {
+    background-color: yellow;
+  }
+  .footer__nav__logo:hover {
+    border: 3px solid yellow;
+  }
+  .footer__nav__ul {
+    display: block;
+  }
+  .footer__nav__ul__li:hover:active {
+    width: 100px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: yellow;
+  }
+  .footer__nav__ul__li:hover {
+    border: 3px solid yellow;
+  }
+  .footer__nav__ul__li a {
+    color: #939CAA;
+  }
+  .footer__img {
+    display: flex;
+  }
+  .footer .footer__img {
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    left: -40px;
+    width: 30px;
+    height: 20px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
